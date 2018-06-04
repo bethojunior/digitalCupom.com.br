@@ -1,0 +1,150 @@
+.divBlog {
+    display: none;
+}
+.geralBlog {
+    font-family: "Montserrat";
+}
+#dateNow {
+    text-align: center;
+}
+.geralBlog textarea {
+    height: 400px;
+    resize: none;
+}
+.geralBlog .btn {
+    margin-top: 2%;
+}
+
+/*  PAGINA BLOG */
+.divGeralBlog .navBlog {
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    height: 13%;
+}
+.divGeralBlog .navBlog img {
+    width: 7%!important;
+    margin: 1%;
+}
+
+.listNav {
+    color: black;
+    font-family: "Montserrat";
+    cursor: pointer;
+    font-weight: bold;
+}
+.nameBlog {
+    text-decoration: underline;
+}
+.divOptionsNav {
+    margin-top: 1%;
+}
+.divConteudo {
+    padding: 5%;
+    margin-top: 8%!important;
+    font-family: "Montserrat";
+}
+.colorGreen {
+    color: #008800;
+}
+.headerBlog span {
+    font-family: "Montserrat";
+    font-size: 30pt;
+    font-weight: bold;
+}
+.divConteudo .hrGreen {
+    width: 60%;
+    border: solid 2px #008800;
+    border-radius: 10px;
+}
+.previewLast {
+    padding-bottom: 20%;
+    width: auto;
+    overflow: hidden;
+    font-family: "Raleway";
+    position: absolute;
+    top: 0;
+    right: 0!important;
+    overflow: auto;
+    margin-top: 19vw;
+    color: white;
+    text-align: justify;
+    background-color: #55aa27;
+    border-radius: 4px;
+    min-height: auto;
+    padding: 2%;
+    margin-right: 1%;
+}
+
+.titlePostBlog {
+    font-weight: 900;
+    font-size: 18pt;
+    text-transform: uppercase;
+}
+#listNoticias {
+    margin-top: 5%;
+}
+.listDataPosts .imgPosts {
+    width: 100%;
+}
+.listDataPosts {
+    height: auto;
+    margin: 1%;
+    padding: 1%;
+}
+.postBlog {
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+.titlePostLastsBlog {
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: "Raleway";
+    font-weight: none;
+}
+
+.readMore{
+    cursor: pointer;
+    font-size: 13pt;
+    font-weight: bold;
+}
+
+.marginGeral {
+    padding: 2%;
+    margin: 4%;
+}
+.divGeralBlogComplet {
+    margin-top: 10%;
+}
+.titleComplet {
+    font-family: "Montserrat";
+    font-size: 2vw;
+}
+.postComplet {
+    text-align: justify;
+}
+.divGeralBlogComplet .hrGreen {
+    width: 60%;
+    border: solid 2px #008800;
+    border-radius: 10px;
+}
+.fontPost {
+    font-family: "Raleway";
+    font-weight: 400;
+}
+.lastsNews {
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .previewLast {
+        display: none;
+    }
+
+    .divGeralBlog .navBlog {
+        display: none;
+    }
+}

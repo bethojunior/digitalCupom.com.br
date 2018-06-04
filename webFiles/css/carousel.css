@@ -1,0 +1,59 @@
+.divFormCarousel {
+    margin-top: 3%;
+}
+.imagesCarosel {
+    border: solid 1px gray;
+    border-radius: 7px;
+}
+.divImagesCarousel {
+    cursor: pointer;
+    margin: 5%;
+}
+.divImagesCarousel img {
+    width: 100%;
+}
+.idImg {
+    display: none;
+}
+.divCarousel .carousel{
+    height: 18vw!important;
+}
+#tituleFirstDiv {
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    margin-left: 40%;
+    margin-top: 3vw;
+    border: solid 4px white;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18pt;
+    font-weight: bold;
+    font-family: "Montserrat";
+}
+
+.menuPrincipal span{
+    cursor: pointer;
+    color: white;
+    font-weight: 900;
+    font-family: "Montserrat";
+}
+
+.menuPrincipal a{
+    cursor: pointer;
+    color: white;
+    font-weight: 900;
+    font-family: "Montserrat";
+}
+.menuPrincipal input{
+    position: relative;
+    z-index: 9999999;
+    border: solid 2px white;
+    border-radius: 50px;
+    margin-right: 4%;
+}
+.menuPrincipal input::-moz-placeholder{
+    color: white;
+    font-family: "Raleway";
+    font-size: bold;
+}

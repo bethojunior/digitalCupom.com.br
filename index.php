@@ -4,16 +4,14 @@
 		<title>Cupom Digital</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel='icon' href='images/logo.png'>
 	</head>
 	<body>
 			<div id="wrapper">
 
 					<header id="header" class="alt">
-						<span class="logo"><img src="images/logo.svg" alt="" /></span>
+						<span class="logo"><img src="images/logo.png" alt="" /></span>
 						<h1>DigitalCupom.com.br</h1>
 					</header>
 
@@ -26,6 +24,7 @@
 							<li><a href="#institucoesqueajudamos">Instituições que ajudamos</a></li>
 							<li><a href="#comoParticipar">Como Participar</a></li>
 							<li><a href="login.php" class="button small special">Login</a></li>
+							<li><a href="http://betho3.000webhostapp.com/index/home" class="button small special">Anexar Notas</a></li>
 						</ul>
 					</nav>
 
@@ -142,6 +141,7 @@
 							</p>
 							<ul class="actions">
 								<li><a href="sobre.php" class="button">Ler Mais</a></li>
+								<li><a href="login.php" class="button small special">Login</a></li>
 							</ul>
 						</section>
 						<section>

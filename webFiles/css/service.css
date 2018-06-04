@@ -1,0 +1,49 @@
+.divService {
+    margin-top: 2%;
+}
+.divService #titleService {
+    background-color: #DEDFE1;
+}
+.divService textarea{
+    resize: none;
+    height: 35%;
+    background-color: #DEDFE1;
+}
+.divService .btn {
+    margin: 1%;
+}
+#preloadService {
+    margin-top: 5%;
+    margin-left: 45%;
+}
+#showFilesService {
+    padding: 3%;
+    height: 350px;
+    overflow: auto;
+}
+.cardService {
+    margin: 1%;
+    border: solid 1px gray;
+    border-radius: 5px;
+}
+.cardService i {
+    color: white;
+    padding: 1%;
+}
+.cardService .btn {
+    margin-bottom: 4px;
+}
+#deleteCard {
+    top: 0;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.editCard {
+    top: 0;
+    margin-top: 5px;
+    cursor: pointer;
+}
+#modalCardService #postCardService {
+    resize: none;
+    height: 250px;
+}

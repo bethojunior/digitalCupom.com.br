@@ -1,0 +1,26 @@
+.loginBack {
+    background-image: url("../images/login.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.loginBack .row .logo {
+    width: 15%;
+    margin-left: 8%;
+}
+.loginBack .backWHITE {
+    margin-top: 3%;
+    opacity:0.65;
+	-moz-opacity: 0.65;
+	filter: alpha(opacity=65);
+    border-radius: 10px;
+    padding: 10px;
+    opacity: 10%;
+    background-color: white;
+}
+
+.backWHITE input{
+    text-align: center;
+}
+.backWHITE button{
+    width: 100%;
+}

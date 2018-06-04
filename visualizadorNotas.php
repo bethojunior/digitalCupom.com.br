@@ -1,20 +1,12 @@
 <!DOCTYPE HTML>
-<!--
-	Stellar by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 <head>
     <title>Cupom Digital</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
     <link rel="stylesheet" href="assets/css/main.css" />
-    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 </head>
-<body>
+<body onload="loadData()">
 
 <!-- Wrapper -->
 <div id="wrapper">
@@ -23,7 +15,7 @@
     <header id="header" class="alt">
         <span class="logo"><img src="images/logo.svg" alt="" /></span>
         <h1>Seja Bem Vindo</h1>
-        <p>Heghbertho Costa</p>
+        <p id='nameLoged'></p>
     </header>
 
 
@@ -43,18 +35,11 @@
                             <tr>
                                 <th>Data</th>
                                 <th>Estabelecimento</th>
-                                <th>Valor</th>
+                                <th>TIPO</th>
                             </tr>
                             </thead>
-                            <tbody>
-                                <?php for ($i = 0; $i < 8; $i++){ ?>
-                                    <tr onclick="ir()">
-                                        <td>01/02/2018</td>
-                                        <td>Lojas Americanas</td>
-                                        <td>R$ 29,99</td>
-                                        <td> <a href="#" class="icon fa fa-trash-o"><span class="label">Dribbble</span></a></td>
-                                    </tr>
-                                <?php } ?>
+                            <tbody id='loadList'>
+
                             </tbody>
                         </table>
                     </div>
@@ -64,13 +49,11 @@
                     <header class="major">
                         <h2>Informações do Usuario</h2>
                     </header>
-                    <h2 style="text-align: center; font-weight: bold">Heghbertho Costa</h2>
+                    <h2 style="text-align: center; font-weight: bold" id='nameLoged2'></h2>
                     <ul class="alt">
-                        <li><b>CPF:</b> 3839387387</li>
-                        <li><b>Endereço:</b> Rua santa Luiza 201</li>
-                        <li><b>CEP:</b> 324231201 - Fortaleza - CE</li>
-                        <li><b>E-mail</b>costa@gmail.com</li>
-                        <li><b>Telefone:</b>(85) 9785857474</li>
+                        <li><b>CPF:</b><label id='cpfClienteloged'></label></li>
+                        <li><b>E-mail</b><label id='emailLoged'></label></li>
+                        <li><b>Telefone:</b><label id='numberLoged'></label></li>
                         <ul class="actions">
                             <li><a href="#" class="button special small">Sair</a></li>
                         </ul>
@@ -108,13 +91,14 @@
 <script src="assets/js/jquery.scrolly.min.js"></script>
 <script src="assets/js/skel.min.js"></script>
 <script src="assets/js/util.js"></script>
-<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 <script src="assets/js/main.js"></script>
-<script>
-    function ir() {
-        window.location.href = "visualizadorNF.php";
-    }
-</script>
+<script src="assets/js/util.js"></script>
+<script src="webFiles/js/ultils/sweetalert.min.js"></script>
+<script src="webFiles/js/ultils/host.js"></script>
+<script src="webFiles/js/controller/userController.js"></script>
+<script src="webFiles/js/modulos/user.js"></script>
+<script src="webFiles/js/modulos/profile.js"></script>
+
 
 </body>
 </html>
